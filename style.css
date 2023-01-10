@@ -1,3 +1,234 @@
-.intro{
-    background-image: url(../assignment/images/banner3.png);
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Banner styles */
+
+.banner {
+    background-image: url(images/banner3.png);
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+    padding-top: 20px;
+    margin: 0 auto;
+
+}
+
+.banner-quote {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: right;
+    margin: 0 auto;
+    padding-right: 150px;
+    padding-top: 120px;
+
+
+
+
+}
+
+.banner-description {
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    color: #FFFFFF;
+    margin-right: 50px;
+    margin-left: 950px;
+    text-align: right;
+
+
+}
+
+/* button styles */
+.button {
+    margin-right: 50px;
+    margin-left: 1280px;
+}
+
+.button-primary {
+    width: 160px;
+    height: 64px;
+    color: #FFFFFF;
+
+    border-radius: 5px;
+    border-style: none;
+}
+
+.button-text {
+    color: #005FAC;
+    font-weight: 900;
+    font-size: medium;
+}
+
+/* Year review styles */
+ul {
+    list-style-type: none;
+}
+
+.year-review {
+    display: flex;
+    margin: 0 auto;
+    width: 1050px;
+    height: 750px;
+}
+
+.review-item {
+    left: 15px;
+    right: 15px;
+    margin: 0 auto;
+}
+
+.review-title {
+    padding-top: 150px;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 30px;
+}
+
+.review-detailes {
+    margin-left: 30px;
+}
+
+.li-style {
+    margin-left: 30px;
+    color: #25e117;
+}
+
+
+/* plans Styles Main */
+
+.my-plans {
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+    padding-top: 100px;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.plan-container {
+    display: flex;
+    gap: 130px;
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 200px;
+
+}
+
+.plan {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin: 0 auto;
+}
+
+
+.plan-name {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.plan-details {
+    text-align: center;
+    font-weight: 500;
+    color: rgb(100, 96, 96);
+}
+
+.footer-content {
+    margin: 0 auto;
+    width: 1150px;
+    height: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.relative-image {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.absolute-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /* contact styles */
+}
+
+.my-contacts {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.contact {
+    background: #b3ffb9;
+    border-radius: 5px;
+}
+
+.contact-title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.contact-container {
+    display: flex;
+    gap: 27px;
+    padding-bottom: 100px;
+
+}
+
+.contact-site {
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.site-details {
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 1150px;
+    height: 300px;
+    padding-bottom: 200px;
+
+}
+
+.position-parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.position-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 80px;
+
+}
+
+.footer-title-text {
+    font-size: 35px;
+    font-weight: 800;
+    color: #FFFFFF;
 }
